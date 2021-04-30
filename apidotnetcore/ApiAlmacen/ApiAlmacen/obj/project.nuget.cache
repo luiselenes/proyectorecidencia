@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cy1OobLDb9mPJqjRE/Kca6OQ1wpk4hCN/RHw8q8f0umJgqIFcv0hkcp+8yigzj0TGNBYh5dU9mMi/Vr1CkFbjg==",
+  "success": true,
+  "projectFilePath": "C:\\App Almacen\\apidotnetcore\\ApiAlmacen\\ApiAlmacen\\ApiAlmacen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lu\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\lu\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\lu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
