@@ -4,6 +4,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MediatR;
+using Pomelo.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+
 
 namespace ApiAlmacen
 {
@@ -32,8 +36,17 @@ namespace ApiAlmacen
                   option.UseMySql($"server={host}; userid=root; pwd={password}: port={port}; database=alamacen");
               }*/
 
-            var connectionString = config["mysqlconnection:connectionString"];
-            services.AddDbContext<AlamacenDbContext>(o => o.UseMySql(connectionString));
+            var connectionString = Configuration["mysqlconnection:connectionString"];
+
+            services.AddDbContextPool<AlamacenDbContext>(options =>
+            {
+                var connetionString = Configuration.GetConnectionString("DefaultConnection");
+                options.UseMySql(connetionString, ServerVersion.AutoDetect(connetionString));
+            });
+
+            services.AddMvc();
+        
+
 
         }
 
@@ -46,7 +59,7 @@ namespace ApiAlmacen
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, AlamacenDbContext context)
         {
             if (env.IsDevelopment())
             {
