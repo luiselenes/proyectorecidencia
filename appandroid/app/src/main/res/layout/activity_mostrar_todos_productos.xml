@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryWhiteColor"
+    android:orientation="horizontal"
+    tools:context=".MostrarTodosProductosActivity">
+
+        <Button
+            android:id="@+id/btnImagenProducto"
+            android:layout_width="35dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_cubo"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/amiko_bold"
+                    android:background="@drawable/category_text_background"
+                    android:text="Ladrillo"
+                    android:textAlignment="center"
+                    android:textColor="@color/primaryWhiteColor"
+                    android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/cantidadExistencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="35dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/amiko_bold"
+            android:background="@drawable/category_text_background"
+            android:text="Existencia: 15"
+            android:textAlignment="center"
+            android:textColor="@color/primaryWhiteColor"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Categoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="35dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/amiko_bold"
+            android:background="@drawable/category_text_background"
+            android:text="Categoría"
+            android:textAlignment="center"
+            android:textColor="@color/primaryWhiteColor"
+            android:textSize="15sp" />
+
+
+</LinearLayout>

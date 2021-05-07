@@ -10,4 +10,40 @@
     <color name="orange">#FF8D27</color>
     <color name="gray">#605F5F</color>
     <color name="blue">#002060</color>
+
+    <!-- Color scheme for main App theme -->
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="colorAccent">#2979FF</color>
+
+    <!-- Color scheme for editor activity theme -->
+    <color name="colorPrimaryEditor">#212121</color>
+    <color name="colorPrimaryDarkEditor">#121212</color>
+    <color name="colorAccentEditor">@color/colorAccent</color>
+
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="dividerLine">#CFD8DC</color>
+    <color name="primaryWhiteColor">#FFFFFF</color>
+
+    <color name="placeOrderBackground">#FAFAFA</color>
+    <color name="categoryTitle">@color/colorAccent</color>
+    <color name="deleteItem">#F44336</color>
+    <color name="quantityModificationButton">#00E676</color>
+    <color name="overviewTextTitle">@color/colorAccent</color>
+
+    <!-- Color scheme for quantity on list layout -->
+    <color name="quantityValueZero">#F44336</color>
+    <color name="quantityValueBelowLimit">#FF9800</color>
+
+    <!-- Color scheme for login screens-->
+    <color name="loginColorPrimary">#212121</color>
+    <color name="loginColorPrimaryDark">#121212</color>
+    <color name="loginColorAccent">#2979FF</color>
+    <color name="iron">#fefefe</color>
+
+    <!-- Item category background color gradient -->
+    <color name="categoryGradientStartColor">#ffa000</color>
+    <color name="categoryGradientCenterColor">#f06292</color>
+    <color name="categoryGradientEndColor">#ff4081</color>
 </resources>

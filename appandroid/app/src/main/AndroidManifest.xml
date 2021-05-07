@@ -8,11 +8,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppAlmacen.NoActionBar">
-        <activity android:name=".activityAlmacenista"></activity>
+        <activity android:name=".MostrarTodosProductosActivity"></activity>
+        <activity android:name=".ProductDetailActivity" />
+        <activity android:name=".activityAlmacenista" />
         <activity android:name=".passwordActivity" />
         <activity android:name=".loginActivity" />
-        <activity
-            android:name=".MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
