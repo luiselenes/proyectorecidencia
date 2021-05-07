@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityAlmacenista"
+    android:background="@drawable/fondomenu"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-150dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="110dp"
+            android:layout_height="99dp"
+            app:srcCompat="@drawable/teamwork"
+            android:layout_marginTop="115dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko_bold"
+            android:layout_marginTop="25dp"
+            android:text="Almacenista"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="565dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="135dp"
+                >
+
+                <Button
+                    android:id="@+id/btnEntradaInsumos"
+                    android:layout_width="153dp"
+                    android:layout_height="91dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/rounded_buttom"
+                    android:drawableLeft="@drawable/health_check"
+                    android:text="Entrada insumos"
+                    android:textSize="10sp"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/btnProcesarRequisicionInsumos"
+                    android:layout_width="153dp"
+                    android:layout_height="91dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/rounded_buttom"
+                    android:drawableLeft="@drawable/reporte"
+                    android:text="Procesar requisiciones de insumos"
+                    android:textSize="10sp"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:orientation="horizontal"
+                >
+
+            <Button
+                android:id="@+id/btnBuscarInsumo"
+                android:layout_width="153dp"
+                android:layout_height="91dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_buttom"
+                android:drawableLeft="@drawable/seon"
+                android:text="Buscar insumo"
+                android:textSize="10sp"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:padding="10dp"/>
+
+
+            <Button
+                android:id="@+id/btnGestionUsoInsumos"
+                android:layout_width="153dp"
+                android:layout_height="91dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/rounded_buttom"
+                android:drawableLeft="@drawable/aglutinante"
+                android:text="gestion de uso de insumos"
+                android:textSize="10sp"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:padding="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:layout_marginBottom="275dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnGenerarReporteInsumos"
+                    android:layout_width="153dp"
+                    android:layout_height="91dp"
+                    android:layout_marginLeft="135dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_buttom"
+                    android:drawableLeft="@drawable/prueba"
+                    android:text="generar reporte de insumos"
+                    android:textSize="10sp"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
