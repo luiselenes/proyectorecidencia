@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".ProductSearchActivity">
+
+    <TextView
+        android:id="@+id/city_code"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/ic_cubo"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/secondary_text_size"
+        tools:text="DL" />
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/secondary_text_size"
+        tools:text="Ladrillo" />
+
+
+    <TextView
+        android:id="@+id/cantidadExistencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="35dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/amiko_bold"
+        android:background="@drawable/category_text_background"
+        android:text="Existencia: 15"
+        android:textAlignment="center"
+        android:textColor="@color/primaryWhiteColor"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="35dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/amiko_bold"
+        android:background="@drawable/category_text_background"
+        android:text="Categoría"
+        android:textAlignment="center"
+        android:textColor="@color/primaryWhiteColor"
+        android:textSize="15sp" />
+</LinearLayout>

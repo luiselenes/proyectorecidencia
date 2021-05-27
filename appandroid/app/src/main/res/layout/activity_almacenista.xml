@@ -127,12 +127,12 @@
                     android:layout_marginLeft="135dp"
                     android:layout_marginTop="7dp"
                     android:background="@drawable/rounded_buttom"
-                    android:drawableLeft="@drawable/prueba"
-                    android:text="generar reporte de insumos"
-                    android:textSize="10sp"
                     android:backgroundTint="@color/blue"
+                    android:drawableLeft="@drawable/prueba"
+                    android:padding="10dp"
+                    android:text="generar reporte de insumos"
                     android:textColor="@color/white"
-                    android:padding="10dp"/>
+                    android:textSize="10sp" />
             </LinearLayout>
 
 

@@ -22,11 +22,11 @@ class loginActivity : AppCompatActivity() {
         loginboton.setOnClickListener {
             val showSigned = signIn(textemail.text.toString(), textcontraseña.text.toString())
             if(showSigned){
-                Toast.makeText(this, "Iniciando sesión", Toast.LENGTH_SHORT).show()
-                val intento2 = Intent(this, activityAlmacenista::class.java)
+                Toast.makeText(this, "logueado", Toast.LENGTH_SHORT).show()
+                val intento2 = Intent(this, passwordActivity::class.java)
                 startActivity(intento2)
             }else{
-                Toast.makeText(this, "Complete los campos", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Completa los campos", Toast.LENGTH_SHORT).show()
             }
 
         }

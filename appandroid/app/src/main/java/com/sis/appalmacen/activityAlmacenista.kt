@@ -1,9 +1,8 @@
 package com.sis.appalmacen
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.content.Intent
-import android.view.View
 import android.widget.Button
 
 class activityAlmacenista : AppCompatActivity() {
@@ -11,14 +10,20 @@ class activityAlmacenista : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_almacenista)
 
-        val botonbuscar = findViewById<Button>(R.id.btnBuscarInsumo)
+        val botonreque = findViewById<Button>(R.id.btnProcesarRequisicionInsumos)
+        val botonEntradaInsumos = findViewById<Button>(R.id.btnEntradaInsumos)
 
-        botonbuscar.setOnClickListener{
-            val intentBuscar = Intent(this, MostrarTodosProductosActivity::class.java)
-            startActivity(intentBuscar)
+
+        botonreque.setOnClickListener{
+            val intento1 = Intent(this, requisicionTablaActivity::class.java)
+            startActivity(intento1)
+        }
+
+
+        botonEntradaInsumos.setOnClickListener{
+            val intento2 = Intent(this, expplosionInsumosEdificacionTablaActivity::class.java)
+            startActivity(intento2)
         }
 
     }
-
-
 }
