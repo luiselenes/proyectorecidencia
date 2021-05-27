@@ -11,6 +11,11 @@
         <activity android:name=".ProductSearchActivity"></activity>
         <activity android:name=".MostrarTodosProductosActivity" />
         <activity android:name=".ProductDetailActivity" />
+
+        <activity android:name=".expplosionInsumosEdificacionTablaActivity"></activity>
+        <activity android:name=".explosionInsumosEdificacionActivity" />
+        <activity android:name=".requisicionTablaActivity" />
+        <activity android:name=".requisicionActivity" />
         <activity android:name=".activityAlmacenista" />
         <activity android:name=".passwordActivity" />
         <activity android:name=".loginActivity" />

@@ -84,33 +84,33 @@
                 android:orientation="horizontal"
                 >
 
-            <Button
-                android:id="@+id/btnBuscarInsumo"
-                android:layout_width="153dp"
-                android:layout_height="91dp"
-                android:layout_marginLeft="45dp"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/rounded_buttom"
-                android:drawableLeft="@drawable/seon"
-                android:text="Buscar insumo"
-                android:textSize="10sp"
-                android:backgroundTint="@color/blue"
-                android:textColor="@color/white"
-                android:padding="10dp"/>
+                <Button
+                    android:id="@+id/btnBuscarInsumo"
+                    android:layout_width="153dp"
+                    android:layout_height="91dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/rounded_buttom"
+                    android:drawableLeft="@drawable/seon"
+                    android:text="Buscar insumo"
+                    android:textSize="10sp"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
 
 
-            <Button
-                android:id="@+id/btnGestionUsoInsumos"
-                android:layout_width="153dp"
-                android:layout_height="91dp"
-                android:layout_marginLeft="25dp"
-                android:background="@drawable/rounded_buttom"
-                android:drawableLeft="@drawable/aglutinante"
-                android:text="gestion de uso de insumos"
-                android:textSize="10sp"
-                android:backgroundTint="@color/blue"
-                android:textColor="@color/white"
-                android:padding="10dp"/>
+                <Button
+                    android:id="@+id/btnGestionUsoInsumos"
+                    android:layout_width="153dp"
+                    android:layout_height="91dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/rounded_buttom"
+                    android:drawableLeft="@drawable/aglutinante"
+                    android:text="gestion de uso de insumos"
+                    android:textSize="10sp"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
+                    android:padding="10dp"/>
 
             </LinearLayout>
 
